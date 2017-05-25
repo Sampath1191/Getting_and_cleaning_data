@@ -14,8 +14,9 @@ You should also include a README.md in the repo with your scripts. This repo exp
 ## PROJECT ##
 * Loads the required datasets from the downloaded folder in your system
 * Extract labels from the features dataset which have data related to mean and std
+* Remove unwanted literals from the names of the features using Regular Expressions to make the features more readable and understandable
 * Extract activity dataset
-* Load train and test datasets, selecting columns which have data related to mean and std
+* Load train and test datasets, selecting columns which have data related to mean and std using the index numbers obtained from the feature extraction step havinf the data of mean and std
 * Add the columns that have subjects and activities to the train and test datasets
 * Merge the train and test sets
 * Melt and dcast the merged dataset to obtain summary statistics
